@@ -1,5 +1,4 @@
 from pubsub import pub
-
 def listener1(arg1,arg2 = None):
 	print('function listener1 received:')
 	print(' arg1 = ',arg1)
